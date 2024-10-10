@@ -1,0 +1,27 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: BIL DWSRF Disadvantaged Community Definitions and Code
+message: >-
+  If you use this dataset, please cite it using the metadata
+  from this file.
+type: dataset
+authors:
+  - given-names: Samyukta
+    family-names: Shrivatsa
+    email: samshri@stanford.edu
+    affiliation: 'Stanford University '
+    orcid: 'https://orcid.org/0009-0000-9033-129X'
+  - given-names: Derek
+    family-names: 'Ouyang '
+    orcid: 'https://orcid.org/0000-0001-7823-0752'
+    affiliation: Stanford University
+    email: douyang1@stanford.edu
+  - given-names: Khalid
+    name-particle: K
+    family-names: Osman
+    email: osmank@stanford.edu
+    orcid: 'https://orcid.org/0000-0002-9804-8322'
+    affiliation: Stanford University
+repository-code: 'https://github.com/samshri/BIL-DWSRF'
