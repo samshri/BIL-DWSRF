@@ -12,7 +12,7 @@ library(car)
 library(ggplot2)
 
 #---- Actual funding analysis ----
-filtered_dacs_long <- read.csv("/Users/admin/Library/CloudStorage/GoogleDrive-samshri@stanford.edu/.shortcut-targets-by-id/1UTbFpN_0rVhhr5VuW3VQcQI7QV_vehfc/Research Group Folder/Shrivatsa, Samyukta/Projects/BIL/Data/Final data/Funding_data_DAC_2025March5")
+filtered_dacs_long <- read.csv("Funding_data_DAC_Cleaned")
 pre_BIL_years <- c("FY2019", "FY2020", "FY2021", "FY2022")
 post_BIL_year <- "FY2023"
 
