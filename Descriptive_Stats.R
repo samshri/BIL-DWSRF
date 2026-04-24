@@ -14,8 +14,8 @@ library(ggplot2)
 ### ------ Descriptive stats --------- ####
 ##  -------   Summary stats of non-DAC, DAC-pre and DAC-post ---------------- ###
 
-#dacs_all <- read.csv('/Users/admin/Library/CloudStorage/GoogleDrive-samshri@stanford.edu/.shortcut-targets-by-id/1UTbFpN_0rVhhr5VuW3VQcQI7QV_vehfc/Research Group Folder/Shrivatsa, Samyukta/Projects/BIL/Data/Final data/2025July24_pws_all.csv')
-dacs_all <- read.csv("/Users/admin/Library/CloudStorage/GoogleDrive-samshri@stanford.edu/.shortcut-targets-by-id/1UTbFpN_0rVhhr5VuW3VQcQI7QV_vehfc/Research Group Folder/Shrivatsa, Samyukta/Projects/BIL/Data/Final data/2025July24_pws_all.csv") %>%
+#dacs_all <- read.csv('PWS_all.csv')
+dacs_all <- read.csv("PWS_all.csv") %>%
   filter(StateCode %in% c("CA", "CT", "FL", "IN", "ME", "MI", "NE", "TX", "WA", "WV"))%>%
   mutate(across(everything(), ~ ifelse(is.na(.), 0, .)))  # Fill NAs with 0
 
