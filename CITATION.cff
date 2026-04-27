@@ -17,17 +17,17 @@ authors:
     email: douyang1@stanford.edu
     affiliation: Stanford University
     orcid: https://orcid.org/0000-0001-7823-0752
-
+  - given-names: Daniel
+    family-names: Ho
+    email: dho@law.stanford.edu
+    affiliation: Stanford University
+    orcid: https://orcid.org/0000-0002-2195-5469
   - given-names: Khalid K.
     family-names: Osman
     email: osmank@stanford.edu
     affiliation: Stanford University
     orcid: https://orcid.org/0000-0002-9804-8322
 
-  - given-names: Daniel
-    family-names: Ho
-    email: dho@law.stanford.edu
-    affiliation: Stanford University
-    orcid: https://orcid.org/0000-0002-2195-5469
+
 
 repository-code: https://github.com/samshri/BIL-DWSRF
